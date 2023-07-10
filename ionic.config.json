@@ -1,0 +1,7 @@
+{
+  "name": "household",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
