@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button auto-hide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Household</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://avatars.githubusercontent.com/u/6104840?v=4" />
+      </ion-avatar>
+      <ion-label>
+        <h1>Rajesh Kaushal</h1>
+        <p>Developer</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>List</ion-card-subtitle>
+      <ion-card-title>Daily Needs</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>Milk 1 ltr</ion-item>
+        <ion-item>6 eggs</ion-item>
+        <ion-item>Bread</ion-item>
+        <ion-item lines="none">Apple Juice</ion-item>
+      </ion-list>
+      <p class="small-info">Created : 14th June, 2023</p>
+      <ion-button expand="block" fill="clear" shape="">
+        View
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-fab vertical="top" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
